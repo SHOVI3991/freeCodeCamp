@@ -41,7 +41,6 @@ const {
 
 module.exports = {
   db: MONGODB || MONGOHQ_URL,
-
   cookieSecret: COOKIE_SECRET,
   jwtSecret: JWT_SECRET,
   sessionSecret: SESSION_SECRET,
